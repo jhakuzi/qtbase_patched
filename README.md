@@ -1,5 +1,5 @@
 # qtbase_patched (for Fedora 41)
-Patch for the stuttering overview animation.
+Patch for the stuttering overview animation. Taken from <a href="https://bugsfiles.kde.org/attachment.cgi?id=176255" name="Patch" id="linktome" target="_blank">Here</a>
 
 mkdir qtbase <br>
 
