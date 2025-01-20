@@ -42,8 +42,8 @@ fedpkg --release f41 local
 
 # Create a folder to store built RPMs and copy them there
 mkdir -p built_rpms
-cp ~/rpmbuild/RPMS/x86_64/*.rpm ./built_rpms
-cp ~/rpmbuild/RPMS/noarch/*.rpm ./built_rpms
+mv x86_64/*.rpm ./built_rpms
+mv noarch/*.rpm ./built_rpms
 
 # Install the RPM packages
 sudo dnf install -y ./built_rpms/*.rpm
