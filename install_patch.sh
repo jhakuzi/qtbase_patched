@@ -38,7 +38,7 @@ rm -rf "$SOURCE_DIR"
 sed -i 's/^Release:.*$/Release: 99%{?dist}/' qt6-qtbase.spec
 
 # Recompile the library with the patch in place
-fedpkg --release f42 local
+fedpkg --release f43 local
 
 # Create a folder to store built RPMs and copy them there
 mkdir -p built_rpms
