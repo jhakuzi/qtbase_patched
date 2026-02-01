@@ -48,4 +48,4 @@ mv noarch/*.rpm ./built_rpms
 # Install the RPM packages
 sudo dnf install -y ./built_rpms/*.rpm
 
-echo "Process completed successfully."
+echo "Process completed successfully. You can close the terminal now."
