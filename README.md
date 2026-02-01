@@ -15,7 +15,7 @@ edit src/corelib/animation/qabstractanimation.cpp and change define DEFAULT_TIME
 
 open SPEC file and change Release: x%{?dist} to something like Release: 99%{?dist} <br>
 
-fedpkg --release f42 local #Recompile the library with the patch in place <br>
+fedpkg --release f43 local #Recompile the library with the patch in place <br>
 
 copy built .rpm packages from both x86_64 and noarch into a single folder and run sudo dnf install ./* <br>
 
